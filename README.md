@@ -1,2 +1,2 @@
-# index
-my first web
+# introduction
+A new developer in the world!
