@@ -18,7 +18,7 @@
 		<figure>
 			<!-- the title of figure -->
 			<figcaption>视频播放器</figcaption>
-			<input type="url" class="video-url" value="请输入视频网址">
+			<input type="url" class="video-url" value="请输入视频网址回车结束">
 			<div class="player">
 				<video id="myVideo" src=""></video>
 				<div class="controls">
@@ -67,14 +67,14 @@
 
 		// 文本框默认值
 		urlInput.onfocus = function() {
-			if (urlInput.value.trim() == "请输入视频网址") {
+			if (urlInput.value.trim() == "请输入视频网址回车结束") {
 				urlInput.value = "";
 			}
 		}
 
 		urlInput.onblur = function() {
 			if (urlInput.value.trim() == "") {
-				urlInput.value = "请输入视频网址";
+				urlInput.value = "请输入视频网址回车结束";
 			}
 		}
 
